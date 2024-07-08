@@ -1,72 +1,76 @@
-div{
-    background-color:blanchedalmond;
-    animation-name:ex2;
-    animation-duration:10s;
-    animation-iteration-count:infinite;
+/* General styles */
+div {
+    background-color: blanchedalmond; /* Background color for div */
+    animation-name: ex2; /* Animation name */
+    animation-duration: 10s; /* Duration of animation */
+    animation-iteration-count: infinite; /* Infinite loop for animation */
 }
-@keyframes ex2{
-    0%{
-        background-color:gray;
+
+@keyframes ex2 {
+    0% {
+        background-color: gray;
     }
-    25%{
-        background-color:blue;
+    25% {
+        background-color: blue;
     }
-    50%{
-        background-color:greenyellow;
+    50% {
+        background-color: greenyellow;
     }
-    75%{
-        background-color:crimson;
+    75% {
+        background-color: crimson;
     }
-    100%{
-        background-color:brown;
-    }
-}
-#p1{
-    animation-name:p1;
-    animation-duration:5s;
-    animation-iteration-count:infinite;
-}
-@keyframes p1{
-    0%{
-        color:blue;
-        font-size:20px;
-    }
-    25%{
-        color:green;
-        font-size:28px;
-    }
-    50%{
-        color:blue;
-        font-size:34px;
-    }
-    75%{
-        color:green;
-        font-size:28px;
-    }
-    100%{
-        color:blue;
-        font-size:20px;
+    100% {
+        background-color: brown;
     }
 }
-a{
-    text-decoration:none;
-    color: yellow;
-    padding-right:40px;
-    padding-left:20px;
-    position: relative;
-    top:20px;
+
+#p1 {
+    animation-name: p1; /* Animation name */
+    animation-duration: 5s; /* Duration of animation */
+    animation-iteration-count: infinite; /* Infinite loop for animation */
 }
-div{
-    background-color:teal;
-    
+
+@keyframes p1 {
+    0% {
+        color: blue;
+        font-size: 20px;
+    }
+    25% {
+        color: green;
+        font-size: 28px;
+    }
+    50% {
+        color: blue;
+        font-size: 34px;
+    }
+    75% {
+        color: green;
+        font-size: 28px;
+    }
+    100% {
+        color: blue;
+        font-size: 20px;
+    }
 }
-img{
-    width:200px;
-    height:200px;
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: yellow; /* Link color */
+    padding-right: 40px; /* Right padding */
+    padding-left: 20px; /* Left padding */
+    position: relative; /* Position relative */
+    top: 20px; /* Position 20px from the top */
 }
-nav{
-    width:100%;
+
+img {
+    width: 200px; /* Set image width */
+    height: 200px; /* Set image height */
 }
-button{
-    margin:20px;
+
+nav {
+    width: 100%; /* Full width navigation */
+}
+
+button {
+    margin: 20px; /* Margin around buttons */
 }
