@@ -1,0 +1,72 @@
+div{
+    background-color:blanchedalmond;
+    animation-name:ex2;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+}
+@keyframes ex2{
+    0%{
+        background-color:gray;
+    }
+    25%{
+        background-color:blue;
+    }
+    50%{
+        background-color:greenyellow;
+    }
+    75%{
+        background-color:crimson;
+    }
+    100%{
+        background-color:brown;
+    }
+}
+#p1{
+    animation-name:p1;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes p1{
+    0%{
+        color:blue;
+        font-size:20px;
+    }
+    25%{
+        color:green;
+        font-size:28px;
+    }
+    50%{
+        color:blue;
+        font-size:34px;
+    }
+    75%{
+        color:green;
+        font-size:28px;
+    }
+    100%{
+        color:blue;
+        font-size:20px;
+    }
+}
+a{
+    text-decoration:none;
+    color: yellow;
+    padding-right:40px;
+    padding-left:20px;
+    position: relative;
+    top:20px;
+}
+div{
+    background-color:teal;
+    
+}
+img{
+    width:200px;
+    height:200px;
+}
+nav{
+    width:100%;
+}
+button{
+    margin:20px;
+}
